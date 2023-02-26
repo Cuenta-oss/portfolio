@@ -1,0 +1,39 @@
+:root{
+    --color__orange-ligth: #e1b55e;
+    --color__green-ligth: #b2daa8;
+    --color__green-strong: #33582d;
+    --color__yellow-ligth: #fae6a7;
+    --color__orange: #d98044;
+    --color__pink: #e4867c;
+    --color__gray: #868686;
+    --color__gray-strong: #585858;
+
+    --color__bg: #E5E5E5;
+
+    --color__red-html: #d84924;
+    --color__blue-css: #2071f2;
+    --color__yellow-js: #efd81d;
+    --color__blue-react: #00d1f2;
+    --color__red-git: #e44d30;
+    --color__dark-github: #1b1d22;
+    --color__pink-sass: #c36192;
+    --color__blue-python: #3871a1;
+
+    --color__brown-guitar: #9c4e0e;
+    --color__blue-gamepad: #1146b8;
+    --color__white-volleyball: #becff3;
+    
+    --bg__profile: url('../img/perfilcuadrado.jpg');
+    --font__raleway: 'Raleway', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--font__raleway);
+}
+
+/* body{
+    margin: 20px;
+} */

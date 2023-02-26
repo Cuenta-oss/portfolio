@@ -1,0 +1,96 @@
+.section__skills,
+.section__hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--color__bg);
+}
+
+.section__skills-title,
+.section__hobbies-title{
+    color: var(--color__gray);
+    margin-bottom: 1em;
+}
+
+.section__skills-card,
+.section__hobbies-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100vw;
+}
+
+.section__card-target,
+.section__hobbie-target{
+    /* width: 40%; */
+    height: 150px;
+    flex-basis: 150px;
+    /* flex-grow: 1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+    /* justify-content:; */
+    background-color: rgb(238, 250, 250);
+}
+
+.section__card-icon,
+.section__card-hobbies{
+    font-size: 40px;
+    margin-bottom: 7px;
+}
+
+.html{
+    color: var(--color__red-html);
+}
+
+.css{
+    color: var(--color__blue-css);
+}
+
+.js{
+    color: var(--color__yellow-js);
+}
+
+.react{
+    color: var(--color__blue-react);
+}
+
+.git{
+    color: var(--color__red-git);
+}
+
+.github{
+    color: var(--color__dark-github);
+}
+
+.sass{
+    color: var(--color__pink-sass);
+}
+
+.python{
+    color: var(--color__blue-python);
+}
+.section__card-title,
+.section__card-hobbietitulo{
+    color: var(--color__gray);
+    font-size: .9em;
+}
+
+.volleyball{
+    color: var(--color__white-volleyball);
+}
+
+.guitar{
+    color: var(--color__brown-guitar);
+}
+
+.gamepad{
+    color: var(--color__blue-gamepad);
+}
+
+.headphones{
+    color: var(--color__dark-github);
+}

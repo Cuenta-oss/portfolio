@@ -1,0 +1,17 @@
+.section__sobreMi{
+    background-color: var(--color__green-ligth);
+    padding: 20px;
+}
+
+.section__title-sobreMi{
+    color: var(--color__gray-strong);
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.section__texto-sobreMi{
+    font-weight: 300;
+    color: var(--color__green-strong);
+    margin-bottom: 1em;
+    font-size: .9em;
+}
