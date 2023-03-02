@@ -1,11 +1,58 @@
-.section__experiencia{
+.section__experiencia {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+
 }
 
-.section__experiencia-title{
+.section__experiencia-title {
     color: var(--color__gray);
-    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.section__experiencia-projects {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+.section__experiencia-img {
+    width: 100%;
+    margin-bottom: .8em;
+    -webkit-box-shadow: 0px 6px 23px -8px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 6px 23px -8px rgba(0, 0, 0, 1);
+    box-shadow: 0px 6px 23px -8px rgba(0, 0, 0, 1);
+}
+
+.section__experiencia-titleProject {
+    color: var(--color__gray-strong);
+    margin-bottom: .8em;
+}
+
+.section__experiencia-descriptionProject {
+    font-size: .9em;
+    font-weight: 300;
+    color: var(--color__gray);
+    margin-bottom: .8em;
+}
+
+.section__btn-links {
+    display: flex;
+    gap: 1em;
+}
+
+.btn {
+    padding: 15px;
+    /* width: 30%; */
+    outline: 2px solid var(--color__blue-gamepad);
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--color__blue-gamepad);
+}
+
+.section__verDemo {
+    background-color: var(--color__blue-gamepad);
+    color: var(--color__white);
 }

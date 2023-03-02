@@ -7,7 +7,7 @@
     --color__pink: #e4867c;
     --color__gray: #868686;
     --color__gray-strong: #585858;
-
+    --color__white: #FFF;
     --color__bg: #E5E5E5;
 
     --color__red-html: #d84924;
@@ -25,6 +25,10 @@
     
     --bg__profile: url('../img/perfilcuadrado.jpg');
     --font__raleway: 'Raleway', sans-serif;
+
+    /* IMAGENES PROJECTS */
+    --bg__encriptador: url('../../img/encriptador.png');
+    --bg__apeperia: url('../../img/apeperia.png');
 }
 
 *{

@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="assets/css/sobreMi/sobreMi.css">
     <link rel="stylesheet" href="assets/css/skills/skills.css">
     <link rel="stylesheet" href="assets/css/experiencia/experiencia.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto.css">
 </head>
 
 <body>
@@ -147,7 +148,7 @@
                 <h3 class="section__card-hobbietitulo">Oir música</h3>
             </div>
             <div class="section__hobbie-target">
-                <i class="fa-solid fa-aperture section__card-hobbies photo"></i>
+                <i class="fa-solid fa-camera-retro section__card-hobbies photo"></i>
                 <h3 class="section__card-hobbietitulo">Tomar fotos</h3>
             </div>
         </div>
@@ -158,11 +159,76 @@
     <section class="section__experiencia">
         <h2 class="section__experiencia-title">Experiencia profesional</h2>
         <div class="section__experiencia-projects">
-            <div class="section__experiencia-img">Image here</div>
+            <img src="assets/img/encriptador.png" class="section__experiencia-img" alt="image project">
+            <!-- <div class="section__experiencia-img"></div> -->
             <h4 class="section__experiencia-titleProject">Encriptador de texto</h4>
-            <p class="section__experiencia-descriptionProject"></p>
-            <a href="https://github.com/Cuenta-oss/encriptador" class="btn section__repositorio"></a>
-            <a href="https://cuenta-oss.github.io/encriptador/" class="btn section__verDemo"></a>
+            <p class="section__experiencia-descriptionProject">Challenge Oracle</p>
+            <div class="section__btn-links">
+                <a href="https://github.com/Cuenta-oss/encriptador" class="btn section__repositorio"
+                    target="_blank">Repositorio</a>
+                <a href="https://cuenta-oss.github.io/encriptador/" class="btn section__verDemo" target="_blank">Ver
+                    demo</a>
+            </div>
+        </div>
+        <div class="section__experiencia-projects">
+            <img src="assets/img/apeperia.png" class="section__experiencia-img" alt="image project">
+            <!-- <div class="section__experiencia-img"></div> -->
+            <h4 class="section__experiencia-titleProject">Web Apeperia</h4>
+            <p class="section__experiencia-descriptionProject">Project Oracle</p>
+            <div class="section__btn-links">
+                <a href="https://github.com/Cuenta-oss/apeperia.github.io" class="btn section__repositorio"
+                    target="_blank">Repositorio</a>
+                <a href="https://cuenta-oss.github.io/apeperia.github.io/" class="btn section__verDemo"
+                    target="_blank">Ver demo</a>
+            </div>
+        </div>
+        <div class="section__experiencia-projects">
+            <img src="assets/img/frutayfruto.png" class="section__experiencia-img" alt="image project">
+            <!-- <div class="section__experiencia-img"></div> -->
+            <h4 class="section__experiencia-titleProject">Web Fruta & Fruto</h4>
+            <p class="section__experiencia-descriptionProject">Project Oracle</p>
+            <div class="section__btn-links">
+                <a href="https://github.com/Cuenta-oss/fruta-fruto" class="btn section__repositorio"
+                    target="_blank">Repositorio</a>
+                <a href="https://cuenta-oss.github.io/fruta-fruto/" class="btn section__verDemo" target="_blank">Ver
+                    demo</a>
+            </div>
+        </div>
+        <div class="section__experiencia-projects">
+            <img src="assets/img/encriptador.png" class="section__experiencia-img" alt="image project">
+            <!-- <div class="section__experiencia-img"></div> -->
+            <h4 class="section__experiencia-titleProject">Encriptador de texto</h4>
+            <p class="section__experiencia-descriptionProject">Challenge Oracle</p>
+            <div class="section__btn-links">
+                <a href="https://github.com/Cuenta-oss/encriptador" class="btn section__repositorio">Repositorio</a>
+                <a href="https://cuenta-oss.github.io/encriptador/" class="btn section__verDemo">Ver demo</a>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACTO -->
+    <section class="section__contacto">
+        <!-- <div class="section__contacto-img"></div> -->
+        <div class="section__contacto-form">
+            <h2 class="section__contacto-title">Contacto</h2>
+            <p class="section__contacto-description">¿Quieres contactarme?</p>
+            <p class="section__contacto-description">Complete el siguiente formulario y me pondré en contacto con usted
+                lo antes posible.</p>
+            <form class="section__contacto-formulario">
+                <div class="form-group">
+                    <input type="text" id="nombre" name="nombre" placeholder=" " />
+                    <label for="nombre">Nombre</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder=" " />
+                    <label for="email">Correo electrónico</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder=" "></textarea>
+                    <label for="mensaje">Mensaje</label>
+                    <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+                </div>
+                <button class="section__contacto-btn" type="submit">Enviar</button>
+            </form>
         </div>
     </section>
 
