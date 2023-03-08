@@ -52,13 +52,3 @@
     }
 }
 
-@media screen and (min-width: 1024px) {
-    .header__container-content {
-        flex-direction: row-reverse;
-    }
-
-    .header__container-buttons {
-        font-size: 1em;
-        padding: 10px;
-    }
-}
