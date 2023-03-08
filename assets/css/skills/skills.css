@@ -98,3 +98,11 @@
 .headphones {
     color: var(--color__dark-github);
 }
+
+@media screen and (min-width: 768px) {
+
+    .section__card-target,
+    .section__hobbie-target {
+        flex-basis: 230px;
+    }
+}

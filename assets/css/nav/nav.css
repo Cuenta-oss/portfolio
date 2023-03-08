@@ -33,3 +33,32 @@
 .header__logo-icon {
     font-size: 30px;
 }
+
+@media screen and (min-width: 1024px) {
+    .header__link{
+        display: none;
+    }
+
+    .header__linksa{
+        display: flex;
+    }
+
+    .header__logo-link {
+        color: var(--color__green-strong);
+    }
+    
+    .header__linksa--nav{
+        width: 120px;
+        text-align: center;
+        text-decoration: none;
+        color: var(--color__green-strong);
+        font-weight: 700;
+        /* background-color: aqua; */
+        padding: 15px;
+        transition: all .5s ease-out;
+    }
+    .header__linksa--nav:hover{
+        background-color: var(--color__green-strong);
+        color: var(--color__white);
+    }
+}
