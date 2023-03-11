@@ -1,7 +1,13 @@
 .section__contacto {
     display: flex;
     justify-content: center;
+    /* align-items: center; */
     background-color: var(--color__background-contact);
+    gap: 30px;
+}
+
+.section__contacto-img{
+    display: none;
 }
 
 .section__contacto-form {
@@ -89,7 +95,7 @@
 .section__contacto-btn {
     width: 100%;
     padding: 1em 0;
-    background-color: var(--color__blue-gamepad);
+    background-color: var(--color__green-strong);
     margin-bottom: 1em;
     border: none;
     outline: none;
@@ -97,4 +103,27 @@
     font-size: 1em;
     font-weight: 700;
     color: var(--color__white);
+    transition: all .5s ease;
+}
+.section__contacto-btn:hover {
+    cursor: pointer;
+    background-color: var(--color__green-ligth2);
+}
+
+@media screen and (min-width:1024px) {
+    .section__contacto{
+        padding: 20px 100px;
+    }
+    .section__contacto-img{
+        display: block;
+        width: 50%;
+        /* background-image: var(--bg__contact); */
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url('../../img/undraw_delivery_address_re_cjca.svg');
+    }
+
+    .section__contacto-form{
+        width: 50%;
+    }
 }

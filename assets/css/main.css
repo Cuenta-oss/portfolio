@@ -1,7 +1,8 @@
-:root{
+:root {
     --color__orange-ligth: #e1b55e;
     --color__green-ligth: #b2daa8;
     --color__green-strong: #33582d;
+    --color__green-ligth2: #498040;
     --color__yellow-ligth: #fae6a7;
     --color__orange: #d98044;
     --color__pink: #e4867c;
@@ -24,16 +25,24 @@
     --color__brown-guitar: #9c4e0e;
     --color__blue-gamepad: #1146b8;
     --color__white-volleyball: #becff3;
-    
+
     --bg__profile: url('../img/perfilcuadrado.jpg');
-    --font__raleway: 'Raleway', sans-serif;
+    --bg__contact:
+        /* --bg__contact: url('../img/undraw_delivery_address_re_cjca.svg') */
+        --font__raleway: 'Raleway', sans-serif;
 
     /* IMAGENES PROJECTS */
     --bg__encriptador: url('../../img/encriptador.png');
     --bg__apeperia: url('../../img/apeperia.png');
+
+    /* COLORES REDES SOCIALES */
+    --color__linkedin: #2764AC;
+    --color__instagram-1: #d6249f;
+    --color__instagram: radial-gradient(circle at 20% 120%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -44,3 +53,8 @@
     margin: 20px;
 } */
 
+@media screen and (min-width: 1024px) {
+    body {
+        font-size: 1.2em;
+    }
+}

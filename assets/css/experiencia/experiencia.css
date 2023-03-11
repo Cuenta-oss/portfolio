@@ -11,11 +11,18 @@
     margin-bottom: 1em;
 }
 
-.section__experiencia-projects {
-    width: 90vw;
+.section__experiencia-container {
+    width: 90%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-bottom: 2em;
+    gap: 30px;
+}
+
+.section__experiencia-projects {
+    width: 100%;
+
 }
 
 .section__experiencia-img {
@@ -46,13 +53,45 @@
 .btn {
     padding: 15px;
     /* width: 30%; */
-    outline: 2px solid var(--color__blue-gamepad);
+    border: 2px solid var(--color__green-strong);
     font-weight: 700;
     text-decoration: none;
-    color: var(--color__blue-gamepad);
+    color: var(--color__green-strong);
 }
 
 .section__verDemo {
-    background-color: var(--color__blue-gamepad);
+    background-color: var(--color__green-strong);
     color: var(--color__white);
+    transition: all .5s ease;
+    border: none;
+}
+
+.section__verDemo:hover {
+    cursor: pointer;
+    background-color: var(--color__green-ligth2);
+}
+
+@media screen and (min-width:1024px) {
+
+    .section__experiencia-container {
+        width: 100%;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        justify-content: flex-start;
+        padding-left: 5%;
+        /* gap: 20px; */
+    }
+
+    .section__experiencia-projects {
+        width: 30%;
+        /* border: 1px solid; */
+    }
+
+    .section__btn-links {
+        /* justify-content: center; */
+    }
+
+    /* .section__experiencia-img{
+        width: 40%;
+    } */
 }
