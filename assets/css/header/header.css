@@ -1,5 +1,5 @@
 .header {
-    margin: 10px 100px;
+    margin: 10px;
 }
 
 .header__container-content {
@@ -54,6 +54,9 @@
 }
 
 @media screen and (min-width:1024px) {
+    .header {
+        margin: 10px 100px;
+    }
 
     /*** ESTILOS BOTÓN SLIDE LEFT ***/
     .header__container-buttons {
@@ -61,26 +64,14 @@
         gap: 10px;
         font-size: 1em;
         padding: 10px;
-        /* -------------- */
-
-        /* background: #fff; */
-        /* color de fondo */
         color: var(--color__gray-strong);
-        /* color de fuente */
-        /* border: 2px solid #4741d7; */
-        /* tamaño y color de borde */
-        /* padding: 16px 20px; */
         border-radius: 3px;
-        /* redondear bordes */
         position: relative;
         z-index: 1;
         overflow: hidden;
         display: inline-block;
     }
 
-    /* .git-hub{
-            background: violet;
-        } */
     .git-hub:hover,
     .linkedin:hover,
     .instagram:hover,
@@ -88,24 +79,6 @@
         color: var(--color__white);
     }
 
-    /* .header__container-buttons:hover {
-            color: #fff;
-        } */
-
-    /* .header__container-buttons::after {
-            content: "";
-            background: #4741d7;
-            position: absolute;
-            z-index: -1;
-            padding: 16px 20px;
-            display: block;
-            top: 0;
-            bottom: 0;
-            left: -100%;
-            right: 100%;
-            -webkit-transition: all 0.35s;
-            transition: all 0.35s;
-        } */
     .git-hub::after {
         content: "";
         background: var(--color__dark-github);
@@ -207,15 +180,4 @@
         -webkit-transition: all 0.35s;
         transition: all 0.35s;
     }
-
-
-    /* .header__container-buttons:hover::after {
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            -webkit-transition: all 0.35s;
-            transition: all 0.35s;
-        } */
-
 }

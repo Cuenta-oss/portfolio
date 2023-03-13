@@ -27,7 +27,7 @@
     /* width: 40%; */
     height: 150px;
     flex-basis: 150px;
-    /* flex-grow: 1; */
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -104,5 +104,36 @@
     .section__card-target,
     .section__hobbie-target {
         flex-basis: 230px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+    .section__skills,
+    .section__hobbies {
+        padding: 20px 100px;
+    }
+
+    .section__card-target,
+    .section__hobbie-target {
+        flex-basis: 260px;
+        height: 260px;
+        transition: all .5s ease;
+    }
+
+    .section__card-target:hover,
+    .section__hobbie-target:hover {
+        transform: scale(1.05);
+    }
+
+    .section__card-icon,
+    .section__card-hobbies {
+        font-size: 80px;
+        margin-bottom: 7px;
+    }
+
+    .section__skills-card,
+    .section__hobbies-card {
+        width: 100%;
     }
 }
